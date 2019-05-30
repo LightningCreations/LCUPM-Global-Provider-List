@@ -1,8 +1,21 @@
 [
  {
-  "name":"lightningcreations",
-  "display":"Lightning Creations",
-  "pubKey":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlR/C3W9n2mSUniZKPiw0hbZg4N27BdmxnoyWfLlTN280xF2Kz/fc/7PtxhDYRluhK/B4zO7A/EF2jpTqUgtSL+hT4L4ZY8I5QVqWcopMdg60FXuc6jdyKp3XLJWn6MFe0lPQAQ7tGhPMmg/LMRuql6cg3ohqjxbOVFYVPpvQ3hUwtPNSdHC5EOrbrydzPYLPOqNZn+/ylj9UidRyMtvFmL1HFjDO6+JQq5DqlwM1N2Jg0ic448vsJ0H/TSaEvGMI+aoetu3arZ4WyMZW4BvDAY4lqv+mb0p6ufgbXDcfxrkdL5Nr9pH1ZrNLHZsDg+ZO/CdX4tYhmahUOrQ3XuZqAwIDAQAB",
-  "requires-verify":true
+  "name":"lcrootca",
+  "provider-kind":"provider-issuer",
+  "key":{
+    "type":"certificate",
+    "ref":"https://raw.githubusercontent.com/LightningCreations/LCUPM-Global-Provider-List/Certificates/lcroot.crt",
+    "fingerprint":"sha256:56d7e84af253be9f6fc4ef0df2e5a70327fb9c3f"
+  }
+ },
+ {
+   "name":"gac14ca",
+  "provider-kind":"provider-issuer",
+  "source":"lcrootca",
+  "key":{
+    "type":"certificate",
+    "ref":"https://raw.githubusercontent.com/LightningCreations/LCUPM-Global-Provider-List/Certificates/gac14ca.crt",
+    "fingerprint":"sha256:bfc5ef6c09cc0507b85db1e3bb8a21177b07fdcf"
+  }
  }
 ]
