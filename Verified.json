@@ -4,7 +4,7 @@
   "provider-kind":"provider-issuer",
   "key":{
     "type":"certificate",
-    "ref":"https://raw.githubusercontent.com/LightningCreations/LCUPM-Global-Provider-List/Certificates/lcroot.crt",
+    "ref":"https://raw.githubusercontent.com/LightningCreations/LCUPM-Global-Provider-List/master/Certificates/lcroot.crt",
     "fingerprint":"sha256:56d7e84af253be9f6fc4ef0df2e5a70327fb9c3f"
   }
  },
@@ -14,7 +14,7 @@
   "source":"lcrootca",
   "key":{
     "type":"certificate",
-    "ref":"https://raw.githubusercontent.com/LightningCreations/LCUPM-Global-Provider-List/Certificates/gac14ca.crt",
+    "ref":"https://raw.githubusercontent.com/LightningCreations/LCUPM-Global-Provider-List/master/Certificates/gac14ca.crt",
     "fingerprint":"sha256:bfc5ef6c09cc0507b85db1e3bb8a21177b07fdcf"
   }
  }
